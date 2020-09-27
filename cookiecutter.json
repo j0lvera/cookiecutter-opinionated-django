@@ -1,0 +1,8 @@
+{
+  "project_name": "Opinionated Django",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+  "description": "An opinionated Django starter project",
+  "author_name": "Juan Olvera",
+  "domain_name": "jolvera.dev",
+  "version": "0.1.0"
+}

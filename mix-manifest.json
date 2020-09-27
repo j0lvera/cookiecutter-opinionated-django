@@ -1,0 +1,4 @@
+{
+    "/{{ cookiecutter.project_slug }}/static/app.js": "/{{ cookiecutter.project_slug }}/static/app.js",
+    "/{{ cookiecutter.project_slug }}/css/app.css": "/{{ cookiecutter.project_slug }}/css/app.css"
+}
