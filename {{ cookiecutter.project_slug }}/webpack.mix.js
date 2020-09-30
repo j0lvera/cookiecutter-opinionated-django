@@ -12,8 +12,8 @@ let mix = require("laravel-mix");
  */
 
 mix
-  .js("./src/js/app.js", "./{{ cookiecutter.project_slug }}/static/js/")
-  .sass("./src/scss/app.scss", "./{{ cookiecutter.project_slug }}/static/css/");
+  .js("./{{ cookiecutter.project_slug }}/resources/js/app.js", "./{{ cookiecutter.project_slug }}/static/js/")
+  .sass("./{{ cookiecutter.project_slug }}/resources/scss/app.scss", "./{{ cookiecutter.project_slug }}/static/css/");
 
 // Full API
 // mix.js(src, output);
