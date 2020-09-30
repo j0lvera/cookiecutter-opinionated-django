@@ -2,7 +2,7 @@
   "name": "{{ cookiecutter.project_name }}",
   "version": "{{ cookiecutter.version }}",
   "main": "index.js",
-  "author": "Juan Olvera <juan@jolvera.dev>",
+  "author": "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>",
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^7.0.2",
