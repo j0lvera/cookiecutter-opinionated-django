@@ -15,7 +15,7 @@ from pathlib import Path
 import django_on_heroku
 import environ
 
-ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
+ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent
 
 env = environ.Env()
 env.read_env(str(ROOT_DIR / ".env"))
