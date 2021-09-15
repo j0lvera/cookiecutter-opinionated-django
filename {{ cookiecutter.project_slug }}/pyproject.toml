@@ -15,6 +15,7 @@ django-on-heroku = "^1.0.1"
 celery = "4.4.7"
 django-celery-results = "^1.2.1"
 django-celery-beat = "^2.0.0"
+django-hashid-field = "^3.3.0"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"
