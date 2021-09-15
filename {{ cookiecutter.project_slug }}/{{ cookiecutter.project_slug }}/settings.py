@@ -213,3 +213,13 @@ CELERY_CACHE_BACKEND = "django-cache"
 
 # We can also use the cache defined in the CACHES setting in django.
 # CELERY_CACHE_BACKEND = 'default'
+
+# hashids
+
+HASHID_FIELD_SALT = env(
+    "HASHID_FIELD_SALT", default="5*h2&@o_7_z%n!5s37(jd0mtvecs9$3y=l0%h-z)p817@36kzz"
+)
+HASHID_FIELD_MIN_LENGTH = 8
+HASHID_FIELD_ALLOW_INT_LOOKUP = True
+HASHID_FIELD_ENABLE_HASHID_OBJECT = True
+DEFAULT_AUTO_FIELD = "hashid_field.HashidAutoField"
