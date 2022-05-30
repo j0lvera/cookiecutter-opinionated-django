@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "opinionated-django"
+name = "{{ cookiecutter.project_name_dashed }}"
 version = "0.1.0"
 description = ""
 authors = ["Juan Olvera <juan@jolvera.dev>"]
